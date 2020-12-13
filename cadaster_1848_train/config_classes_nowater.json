@@ -1,0 +1,60 @@
+ {
+     "experiment_name": "test_dhsegment_cadaster",
+     "color_labels": {
+         "type": "txt",
+         "label_text_file": "./classes.txt",
+         "labels": ["background", "street", "water", "church", "courtyard", "building"]
+     },
+     "train_dataset": {
+         "type": "patches_csv",
+         "csv_filename": "./train_classes_nowater.csv",
+         "base_dir": "./",
+         "patches_size": 500,
+         "repeat_dataset": 2
+     },
+     "val_dataset": {
+         "type": "patches_csv",
+         "csv_filename": "./val_classes_nowater.csv",
+         "base_dir": "./",
+         "patches_size": 500
+     },
+     "model": {
+         "encoder": "resnet50",
+         "decoder": {
+             "decoder_channels": [512, 256, 128, 64, 32],
+	     "max_channels": 512
+         }
+     },
+     "metrics": [
+         ["miou", "iou"],
+         ["iou", {
+             "type": "iou",
+             "average": null
+         }], "precision"
+     ],
+     "optimizer": {
+         "lr": 1e-3
+     },
+     "lr_scheduler": {
+         "type": "exponential",
+         "gamma": 0.9995
+     },
+     "train_checkpoint": {"type": "iteration", "every_n_iterations": 2000},
+     "val_checkpoint": {"checkpoints_to_keep": 2},
+     "val_metric": "+miou",
+     "early_stopping": {
+         "patience": 4
+     },
+     "model_out_dir": "/dhlabdata4/benali/models/1848/model_cadaster_classes_nowater",
+     "num_epochs": 100,
+     "evaluate_every_epoch": 2,
+     "batch_size": 8,
+     "num_data_workers": 2,
+     "track_train_metrics": false,
+     "loggers": [{
+         "type": "tensorboard",
+         "log_dir": "/dhlabdata4/benali/models/1848/model_cadaster_classes_nowater/log",
+         "log_every": 20,
+         "log_images_every": 50
+     }]
+ }
