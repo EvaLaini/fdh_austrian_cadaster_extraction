@@ -10,3 +10,5 @@ The cadaster_1848_train folder contains all necessary files for model training u
 * train_classes.csv, train_edges_2.csv, val_classes.csv, val_edges_2.csv, train_classes_nowater.csv and val_classes_nowater.csv contain the path to the training images and the corresponding masks. 
 * classes.txt and classes_edges.txt contain the color values associated with the classes explicitaded in the config files.
 * the folder Masks contains all the masks used for the different trainings.
+
+The Probabilities_to_geometries-Austrian.ipynb is the notebook used for getting the probabilities map from the models and extract the corresponding geometries. It was adapted from the notebook used in the 1808 cadaster extraction pipeline.
