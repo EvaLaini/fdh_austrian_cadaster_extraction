@@ -1,0 +1,53 @@
+CLASSES
+model_classes_n01
+  + best_model_checkpoint_miou=0.827
+  + patches = 500
+  + repeat_dataset = 2
+  + lr = 1e-3
+  + lr_scheduler = {exponential, 0.9995}
+  + patience = 4
+
+model_classes_nowater_n01
+  + best_model_checkpoint_miou=0.251
+  + patches = 500
+  + repeat_dataset = 2
+  + lr = 1e-3
+  + lr_scheduler = {exponential, 0.9995}
+  + patience = 4
+
+model_classes_inv_n01
+  + note: 2 extra masks
+  + best_model_checkpoint_miou=0.445
+  + patches = 500
+  + repeat_dataset = 2
+  + lr = 1e-3
+  + lr_scheduler = {exponential, 0.9995}
+  + patience = 8
+
+====================
+
+EDGES 2
+model_edges2_inv_n01:
+  + best_model_checkpoint_miou=0.487
+  + patches = 500
+  + repeat_dataset = 2
+  + lr = 1e-3
+  + lr_scheduler = {exponential, 0.9995}
+  + patience = 4
+
+model_edges2_inv_n02:
+  + best_model_checkpoint_miou=0.603
+  + patches = 500
+  + repeat_dataset = 2
+  + lr = 1e-3
+  + lr_scheduler = {exponential, 0.9995}
+  + patience = 8
+
+model_edges2_inv_n03:
+  + note: 2 extra masks
+  + best_model_checkpoint_miou=0.573
+  + patches = 500
+  + repeat_dataset = 2
+  + lr = 1e-3
+  + lr_scheduler = {exponential, 0.9995}
+  + patience = 8
