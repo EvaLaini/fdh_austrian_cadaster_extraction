@@ -14,4 +14,4 @@ The cadaster_1848_train folder contains all necessary files for model training u
 
 The Probabilities_to_geometries-Austrian.ipynb is the notebook used for getting the probabilities map from the models and extract the corresponding geometries. It was adapted from the notebook used in the 1808 cadaster extraction pipeline.
 
-The model_eval.txt files conatins all the evaluation metrics, IOU per class and MIOU for two images samples and different models.
+The model_eval.txt files conatins all the evaluation metrics, IOU per class and MIOU for two images samples and the different models described in the models.txt file.
