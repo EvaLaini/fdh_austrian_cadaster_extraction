@@ -1,0 +1,481 @@
+MODELS EVALUATIONS
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n01 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.551,
+  "water": 0.639,
+  "church": 0.004,
+  "courtyard": 0.009,
+  "building": 0.774
+}
+MIOU = 0.395
+Weighted MIOU = 0.543 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.392
+Ratio of correctly detected edges = 0.905
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n01 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.719,
+  "water": 0.529,
+  "church": 0.104,
+  "courtyard": 0.047,
+  "building": 0.786
+}
+MIOU = 0.437
+Weighted MIOU = 0.583 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.394
+Ratio of correctly detected edges = 0.913
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n01 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.29,
+  "water": 0.0,
+  "church": 0.1,
+  "courtyard": 0.003,
+  "building": 0.628
+}
+MIOU = 0.204
+Weighted MIOU = 0.298 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.394
+Ratio of correctly detected edges = 0.913
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n02 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.543,
+  "water": 0.739,
+  "church": 0.098,
+  "courtyard": 0.054,
+  "building": 0.875
+}
+MIOU = 0.462
+Weighted MIOU = 0.615 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.488
+Ratio of correctly detected edges = 0.913
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n02 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.718,
+  "water": 0.553,
+  "church": 0.098,
+  "courtyard": 0.065,
+  "building": 0.874
+}
+MIOU = 0.462
+Weighted MIOU = 0.622 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.488
+Ratio of correctly detected edges = 0.913
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n02 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.299,
+  "water": 0.0,
+  "church": 0.09,
+  "courtyard": 0.006,
+  "building": 0.675
+}
+MIOU = 0.214
+Weighted MIOU = 0.317 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.488
+Ratio of correctly detected edges = 0.913
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n03 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.592,
+  "water": 0.662,
+  "church": 0.101,
+  "courtyard": 0.023,
+  "building": 0.879
+}
+MIOU = 0.451
+Weighted MIOU = 0.607 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.466
+Ratio of correctly detected edges = 0.912
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n03 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.703,
+  "water": 0.552,
+  "church": 0.101,
+  "courtyard": 0.069,
+  "building": 0.878
+}
+MIOU = 0.461
+Weighted MIOU = 0.62 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.466
+Ratio of correctly detected edges = 0.912
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges2_inv_n03 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.295,
+  "water": 0.0,
+  "church": 0.089,
+  "courtyard": 0.011,
+  "building": 0.73
+}
+MIOU = 0.225
+Weighted MIOU = 0.337 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.466
+Ratio of correctly detected edges = 0.912
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges3_1808 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.58,
+  "water": 0.971,
+  "church": 0.089,
+  "courtyard": 0.026,
+  "building": 0.62
+}
+MIOU = 0.457
+Weighted MIOU = 0.578 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.214
+Ratio of correctly detected edges = 0.855
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges3_1808 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.721,
+  "water": 0.734,
+  "church": 0.089,
+  "courtyard": 0.027,
+  "building": 0.62
+}
+MIOU = 0.438
+Weighted MIOU = 0.565 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.214
+Ratio of correctly detected edges = 0.855
+
+========================================
+
+Results for castello_06_crop00 with edge model model_edges3_1808 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.721,
+  "water": 0.734,
+  "church": 0.089,
+  "courtyard": 0.027,
+  "building": 0.62
+}
+MIOU = 0.438
+Weighted MIOU = 0.565 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.214
+Ratio of correctly detected edges = 0.855
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n01 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": 0.0,
+  "street": 0.454,
+  "water": 0.928,
+  "church": 0.0,
+  "courtyard": 0.0,
+  "building": 0.78
+}
+MIOU = 0.36
+Weighted MIOU = 0.631 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.39
+Ratio of correctly detected edges = 0.905
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n01 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.484,
+  "water": 0.746,
+  "church": 0.0,
+  "courtyard": 0.0,
+  "building": 0.737
+}
+MIOU = 0.393
+Weighted MIOU = 0.586 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.39
+Ratio of correctly detected edges = 0.905
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n01 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.319,
+  "water": 0.0,
+  "church": 0.0,
+  "courtyard": 0.01,
+  "building": 0.565
+}
+MIOU = 0.179
+Weighted MIOU = 0.316 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.39
+Ratio of correctly detected edges = 0.905
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n02 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": 0.0,
+  "street": 0.341,
+  "water": 0.746,
+  "church": 0.0,
+  "courtyard": 0.017,
+  "building": 0.796
+}
+MIOU = 0.317
+Weighted MIOU = 0.567 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.486
+Ratio of correctly detected edges = 0.942
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n02 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.525,
+  "water": 0.785,
+  "church": 0.0,
+  "courtyard": 0.079,
+  "building": 0.795
+}
+MIOU = 0.437
+Weighted MIOU = 0.637 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.486
+Ratio of correctly detected edges = 0.942
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n02 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.316,
+  "water": 0.0,
+  "church": 0.0,
+  "courtyard": 0.018,
+  "building": 0.592
+}
+MIOU = 0.185
+Weighted MIOU = 0.327 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.486
+Ratio of correctly detected edges = 0.942
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n03 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.295,
+  "water": 0.704,
+  "church": 0.0,
+  "courtyard": 0.019,
+  "building": 0.792
+}
+MIOU = 0.362
+Weighted MIOU = 0.543 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.476
+Ratio of correctly detected edges = 0.938
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n03 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.33,
+  "water": 0.63,
+  "church": 0.0,
+  "courtyard": 0.127,
+  "building": 0.791
+}
+MIOU = 0.376
+Weighted MIOU = 0.549 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.476
+Ratio of correctly detected edges = 0.938
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges2_inv_n03 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.311,
+  "water": 0.0,
+  "church": 0.0,
+  "courtyard": 0.024,
+  "building": 0.616
+}
+MIOU = 0.19
+Weighted MIOU = 0.335 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.476
+Ratio of correctly detected edges = 0.938
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges3_1808 and class model model_classes_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.447,
+  "water": 0.879,
+  "church": 0.0,
+  "courtyard": 0.0,
+  "building": 0.734
+}
+MIOU = 0.412
+Weighted MIOU = 0.601 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.217
+Ratio of correctly detected edges = 0.917
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges3_1808 and class model model_classes_inv_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.517,
+  "water": 0.851,
+  "church": 0.0,
+  "courtyard": 0.023,
+  "building": 0.732
+}
+MIOU = 0.425
+Weighted MIOU = 0.618 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.217
+Ratio of correctly detected edges = 0.917
+
+========================================
+
+Results for castello_06_crop01 with edge model model_edges3_1808 and class model model_classes_nowater_n01
+Evalutation for classes:
+IOU per class:
+{
+  "background": null,
+  "street": 0.324,
+  "water": 0.0,
+  "church": 0.0,
+  "courtyard": 0.017,
+  "building": 0.588
+}
+MIOU = 0.186
+Weighted MIOU = 0.328 (weights = real area of class)
+
+Evalutation for edges:
+IOU for edges = 0.217
+Ratio of correctly detected edges = 0.917
